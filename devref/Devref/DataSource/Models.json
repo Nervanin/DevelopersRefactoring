@@ -1,0 +1,148 @@
+{
+    "patterns": {
+        "sections": [
+            {
+                "id": 0,
+                "title": "CREATIONAL"
+            },
+            {
+                "id": 1,
+                "title": "STRUCTURAL"
+            },
+            {
+                "id": 2,
+                "title": "BEHAVIORAL"
+            }
+        ],
+        "items": [
+            {
+                "id": 0,
+                "title": "Factory",
+                "section": 0,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "Provide a level of indirection that abstracts the creation of families of related or dependent objects without directly specifying their concrete classes. The \"factory\" object has the responsibility for providing creation services for the entire platform family. Clients never create platform objects directly, they ask the factory to do that for them. \n \nThis mechanism makes exchanging product families easy because the specific class of the factory object appears only once in the application - where it is instantiated. The application can wholesale replace the entire family of products simply by instantiating a different concrete instance of the abstract factory. \n \nBecause the service provided by the factory object is so pervasive, it is routinely implemented as a Singleton. fhfhdfhdfhsdkfhsadfjhsadfjhsadfjkhsadkfhsadfjhsafkjhsdfjkhsdfjashdfjkasfhakjsdfhasjdfhsadjkfhsdkjfhasdkjfhsadkjfhasdkjfhasdkjfhProvide a level of indirection that abstracts the creation of families of related or dependent objects without directly specifying their concrete classes. The \"factory\" object has the responsibility for providing creation services for the entire platform family. Clients never create platform objects directly, they ask the factory to do that for them. \n \nThis mechanism makes exchanging product families easy because the specific class of the factory object appears only once in the application - where it is instantiated. The application can wholesale replace the entire family of products simply by instantiating a different concrete instance of the abstract factory. \n \nBecause the service provided by the factory object is so pervasive, it is routinely implemented as a Singleton. fhfhdfhdfhsdkfhsadfjhsadfjhsadfjkhsadkfhsadfjhsafkjhsdfjkhsdfjashdfjkasfhakjsdfhasjdfhsadjkfhsdkjfhasdkjfhsadkjfhasdkjfhasdkjfh"
+                    }
+                ]
+            },
+            {
+                "id": 0,
+                "title": "Pattern0",
+                "section": 1,
+                "info": [
+                    {
+                        "image": "AdapterPattern.jpg"
+                    },
+                    {
+                        "text": "lorem ipsum dolor sit amet..2"
+                    }
+                ]
+            },
+            {
+                "id": 0,
+                "title": "Pattern 2",
+                "section": 2,
+                "info": [
+                    {
+                            "image": "abstractFactory.jpg"
+                    },
+                    {
+                            "image": "AdapterPattern.jpg"
+                    },
+                    {
+                            "image": "AdapterPattern.jpg"
+                    },
+                    {
+                            "text": "Pattern "
+                    }
+                    
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Pattern 3",
+                "section": 2,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "Pattern3"
+                    },
+                    {
+                        "text": "AdapterPattern.jpg"
+                    },
+                    {
+                        "text": "Pattern2"
+                    }
+                ]
+            }
+        ]
+    },
+    "algorithms": {
+        "items": [
+            {
+                "id": 0,
+                "title": "Algo 1",
+                "section": null,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "The algorithm works by comparing each item in the list with the item next to it, and swapping them if required. In other words, the largest element has bubbled to the top of the array. The algorithm repeats this process until it makes a pass all the way through the list without swapping any items."
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Algo 2",
+                "section": null,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "The algorithm works by selecting the smallest unsorted item and then swapping it with the item in the next position to be filled.The selection sort works as follows: you look through the entire array for the smallest element, once you find it you swap it (the smallest element) with the first element of the array. Then you look for the smallest element in the remaining array (an array without the first element) and swap it with the second element. Then you look for the smallest element in the remaining array (an array without first and second elements) and swap it with the third element, and so on."
+                    }
+                ]
+            }
+        ]
+    },
+    "data_structures": {
+        "items": [
+            {
+                "id": 0,
+                "title": "DS 1",
+                "section": null,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "A linked list is one of the most basic data structures. It is often compared to an array since many other data structures can be implemented with either an array or a linked list. They each have advantages and disadvantages. A linked list consists of a group of nodes which together represent a sequence. Each node contains two things: the actual data being stored (which can be basically any type of data) and a pointer (or link) to the next node in the sequence. There are also doubly linked lists where each node has a pointer to both the next item and the previous item in the list. The most basic operations in a linked list are adding an item to the list, deleting an item from the list, and searching the list for an item.A linked list is one of the most basic data structures. It is often compared to an array since many other data structures can be implemented with either an array or a linked list. They each have advantages and disadvantages. A linked list consists of a group of nodes which together represent a sequence. Each node contains two things: the actual data being stored (which can be basically any type of data) and a pointer (or link) to the next node in the sequence. There are also doubly linked lists where each node has a pointer to both the next item and the previous item in the list. The most basic operations in a linked list are adding an item to the list, deleting an item from the list, and searching the list for an item.A linked list is one of the most basic data structures. It is often compared to an array since many other data structures can be implemented with either an array or a linked list. They each have advantages and disadvantages. A linked list consists of a group of nodes which together represent a sequence. Each node contains two things: the actual data being stored (which can be basically any type of data) and a pointer (or link) to the next node in the sequence. There are also doubly linked lists where each node has a pointer to both the next item and the previous item in the list. The most basic operations in a linked list are adding an item to the list, deleting an item from the list, and searching the list for an item."
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "DS 2",
+                "section": null,
+                "info": [
+                    {
+                        "image": "abstractFactory.jpg"
+                    },
+                    {
+                        "text": "AdapterPattern.jpg"
+                    },
+                    {
+                        "text": "A stack is a basic data structure where you can only insert or delete items at the top of the stack. It is kind of similar to a stack of books. If you want to look at a book in the middle of the stack you must take all of the books above it off first. The stack is considered LIFO (Last In First Out) meaning the last item you put in the stack is the first item that comes out of the stack. There are three main operations that can be performed on stacks: inserting an item into a stack (called ‘push’), deleting an item from the stack (called ‘pop’), and displaying the contents of the stack (sometimes called ‘pip’)."
+                    }
+                ]
+            }
+        ]
+    }
+}
