@@ -77,44 +77,13 @@ class DetailsCollectionViewController: UIViewController, UICollectionViewDataSou
         view.window!.layer.add(transition, forKey: kCATransition)
     }
     
-    
-    
-        
         func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
             if let item = informationArray![indexPath.row] as? IMG {
                 let shemeViewController = SchemeViewController()
                 shemeViewController.image = item.image
                 navigationController?.present(shemeViewController, animated: true, completion: nil)
-                
             }
         }
-        
-    
-    
-    
-    
-        
-        
-        
-        
-        
-        // let cusnomView = collectionView.dequeueReusableCell(withReuseIdentifier: cellId2, for: indexPath) as! ImageCell
-        // cusnomView.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:))))
-        
-        //if cell == cell.imageView {
-       // if target(forAction: #selector(image), withSender: <#T##Any?#>)
-//            collectionView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:))))
-//            let schemeViewController = SchemeViewController()
-//            schemeViewController.image = image[indexPath.row].image!
-//            present(schemeViewController, animated: false , completion: nil)
-        
-        //                        cell.imageView.isUserInteractionEnabled = true
-        //                        collectionView.addSubview(cell)
-        //collectionView.addSubview(cusnomView)
-        
-    
-    
-    
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId2, for: indexPath)
