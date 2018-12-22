@@ -20,7 +20,7 @@ class SchemeViewController: UIViewController, UIScrollViewDelegate, UIGestureRec
     var doubleTapGestureRecognizer = UITapGestureRecognizer()
     var hadlePinchDouble = UIPinchGestureRecognizer()
     
-    var image: String = String()
+    var image: String? = String()
     var imageView = UIImageView()
     var scrollView = UIScrollView()
     
@@ -45,7 +45,7 @@ class SchemeViewController: UIViewController, UIScrollViewDelegate, UIGestureRec
         
         setGestureRecognizer()
         
-            imageView.image = UIImage(named: image )
+            imageView.image = UIImage(named: image!)
       
         imageView.contentMode = .scaleAspectFit
         imageView.clipsToBounds = true
