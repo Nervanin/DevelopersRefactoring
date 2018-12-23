@@ -112,7 +112,7 @@
                 "section": 0,
                 "info": [
                     {
-                        "image": "builder.jpg"
+                        "image": "multiton.jpg"
                     },
                     {
                         "text": "Separate the algorithm for interpreting (i.e. reading and parsing) a stored persistence mechanism (e.g. RTF files) from the algorithm for building and representing one of many target products (e.g. ASCII, TeX, text widget). The focus/distinction is on creating complex aggregates. \n \nThe \"director\" invokes \"builder\" services as it interprets the external format. The \"builder\" creates part of the complex object each time it is called and maintains all intermediate state. When the product is finished, the client retrieves the result from the \"builder\". \n \nAffords finer control over the construction process. Unlike creational patterns that construct products in one shot, the Builder pattern constructs the product step by step under the control of the \"director\"."
@@ -125,10 +125,10 @@
                 "section": 1,
                 "info": [
                     {
-                            "image": "AdapterPattern.jpg"
+                            "image": "adapter.jpg"
                     },
                     {
-                            "text": "AdapterPattern.jpg"
+                        "text": "Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces. \n \nThis pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces. A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. You plugin the memory card into card reader and card reader into the laptop so that memory card can be read via laptop. \n \nWe are demonstrating use of Adapter pattern via following example in which an audio player device can play mp3 files only and wants to use an advanced audio player capable of playing vlc and mp4 files."
                     }
                 ]
             },
@@ -141,7 +141,7 @@
                         "image": "Bridge.jpg"
                     },
                     {
-                        "text": "AdapterPattern.jpg"
+                        "text": "Bridge is used when we need to decouple an abstraction from its implementation so that the two can vary independently. This type of design pattern comes under structural pattern as this pattern decouples implementation class and abstract class by providing a bridge structure between them. \n \nThis pattern involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes. Both types of classes can be altered structurally without affecting each other.\n \nWe are demonstrating use of Bridge pattern via following example in which a circle can be drawn in different colors using same abstract class method but different bridge implementer classes."
                     }
                 ]
             },
@@ -151,10 +151,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "composite.jpg"
                     },
                     {
-                        "text": ""
+                        "text": "Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects. \n \nThis pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects. \n \nWe are demonstrating use of composite pattern via following example in which we will show employees hierarchy of an organization."
                     }
                 ]
             },
@@ -164,10 +164,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "decorator.jpg"
                     },
                     {
-                        "text": ""
+                        "text": "Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class. \n \nThis pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact. \n \nWe are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some color without alter shape class."
                     }
                 ]
             },
@@ -177,10 +177,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "facade.jpg"
                     },
                     {
-                        "text": "AdapterPattern.jpg"
+                        "text": "Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities. \n \nThis pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes."
                     }
                 ]
             },
@@ -190,10 +190,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "frontController.jpg"
                     },
                     {
-                        "text": ""
+                        "text": "The front controller design pattern is used to provide a centralized request handling mechanism so that all requests will be handled by a single handler. This handler can do the authentication/ authorization/ logging or tracking of request and then pass the requests to corresponding handlers. Following are the entities of this type of design pattern. \n \nFront Controller - Single handler for all kinds of requests coming to the application (either web based/ desktop based). \n \nDispatcher - Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler. \n \nView - Views are the object for which the requests are made."
                     }
                 ]
             },
@@ -203,10 +203,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "flyWeight.jpg"
                     },
                     {
-                        "text": "AdapterPattern.jpg"
+                        "text": "Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under structural pattern as this pattern provides ways to decrease object count thus improving the object structure of application. \n \nFlyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found. We will demonstrate this pattern by drawing 20 circles of different locations but we will create only 5 objects. Only 5 colors are available so color property is used to check already existing Circle objects."
                     }
                 ]
             },
@@ -216,10 +216,10 @@
                 "section": 1,
                 "info": [
                     {
-                        "image": "abstractFactory.jpg"
+                        "image": "proxyPattern.jpg"
                     },
                     {
-                        "text": "AdapterPattern.jpg"
+                        "text": "In proxy pattern, a class represents functionality of another class. This type of design pattern comes under structural pattern. \n \nIn proxy pattern, we create object having original object to interface its functionality to outer world."
                     }
                 ]
             },
