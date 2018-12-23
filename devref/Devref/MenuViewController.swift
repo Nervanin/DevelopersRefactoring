@@ -24,10 +24,7 @@ class MenuViewController: UIViewController, ButtonProtocol {
     
     var modelsArray: [Models]? = ParseDataSourse.allModels()
     //our arrays from ParseDataSourse class. instance of Models(patterns, dataStructures and algorithms)
-    
-    var patternsArray = ParseDataSourse.getPatterns()
-    var dataStucturesArray = ParseDataSourse.getDataStructure()
-    var algorithmsArray = ParseDataSourse.getAlgorithms()
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
