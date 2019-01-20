@@ -17,7 +17,7 @@ class MenuViewController: UIViewController {
     var dataStructuressButton = UIButton(type: .custom)
     var algorithmsButton = UIButton(type: .custom)
     
-    var modelsArray: [Models]? = ParseDataSourse.allModels()
+    var modelsArray: [Model] = DataSourse.allModels()
     //our arrays from ParseDataSourse class. instance of Models(patterns, dataStructures and algorithms)
     
     override func viewDidLoad() {
@@ -59,13 +59,13 @@ class MenuViewController: UIViewController {
     //our navigate button to add list-scene of our change
     @objc func menuButtonPressed(_ sender: UIButton) {
         let listViewController = ListViewController()
-        for model in modelsArray! {
+        for model in modelsArray {
             if sender == designPatternsButton && model is Pattern {
-                listViewController.modelsArray?.append(model)
+                listViewController.modelsArray.append(model)
             } else if sender == dataStructuressButton && model is DataStructure {
-                listViewController.modelsArray?.append(model)
+                listViewController.modelsArray.append(model)
             } else if sender == algorithmsButton && model is Algorithm {
-                listViewController.modelsArray?.append(model)
+                listViewController.modelsArray.append(model)
             }
         }
         navigationController?.pushViewController(listViewController, animated: true)

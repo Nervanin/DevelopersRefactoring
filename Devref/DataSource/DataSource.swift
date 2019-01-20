@@ -9,14 +9,14 @@
 import Foundation
 
 
-class ParseDataSourse {
+class DataSourse {
     
-    class func allModels() -> [Models] {
+    class func allModels() -> [Model] {
         
-        var allModels = [Models]()
-        allModels.append(contentsOf: ParseDataSourse.getPatterns())
-        allModels.append(contentsOf: ParseDataSourse.getDataStructure())
-        allModels.append(contentsOf: ParseDataSourse.getAlgorithms())
+        var allModels = [Model]()
+        allModels.append(contentsOf: DataSourse.getPatterns())
+        allModels.append(contentsOf: DataSourse.getDataStructure())
+        allModels.append(contentsOf: DataSourse.getAlgorithms())
         return allModels
     }
     
@@ -55,11 +55,17 @@ class ParseDataSourse {
             }
             for item in info {
                 if let image = item["image"] as? String {
-                    let instanceImage = IMG(image: image)
+                    let instanceImage = IMG(content: image)
                     sections[section]?.patternsSection?[id].informationArray?.append(instanceImage)
                 } else if let text = item["text"] as? String {
-                    let instanceText = TXT(text: text)
+                    let instanceText = TXT(content: text)
                     sections[section]?.patternsSection?[id].informationArray?.append(instanceText)
+                } else if let header1 = item["header1"] as? String {
+                    let instanceHeader1 = H1(content: header1)
+                    sections[section]?.patternsSection?[id].informationArray?.append(instanceHeader1)
+                } else if let header2 = item["header2"] as? String {
+                    let instanceHeader2 = H2(content: header2)
+                    sections[section]?.patternsSection?[id].informationArray?.append(instanceHeader2)
                 }
             }
         }
@@ -98,7 +104,7 @@ class ParseDataSourse {
                     let image = infoItem["image"] as? String else {
                         continue
                 }
-                let instanceImg = IMG(image: image)
+                let instanceImg = IMG(content: image)
                 dataStructuresArray[id]?.informationArray?.append(instanceImg)
             }
             for textItem in info! {
@@ -106,7 +112,7 @@ class ParseDataSourse {
                     let text = textItem["text"] as? String else {
                         continue
                 }
-                let instaceTxt = TXT(text: text)
+                let instaceTxt = TXT(content: text)
                 dataStructuresArray[id]?.informationArray?.append(instaceTxt)
             }
         }
@@ -143,7 +149,7 @@ class ParseDataSourse {
                     let image = infoItem["image"] as? String else {
                         continue
                 }
-                let instanceImg = IMG(image: image)
+                let instanceImg = IMG(content: image)
                 algorithmsArray[id]?.informationArray?.append(instanceImg)
             }
             for textItem in info! {
@@ -151,7 +157,7 @@ class ParseDataSourse {
                     let text = textItem["text"] as? String else {
                         continue
                 }
-                let instaceTxt = TXT(text: text)
+                let instaceTxt = TXT(content: text)
                 algorithmsArray[id]?.informationArray?.append(instaceTxt)
             }
             

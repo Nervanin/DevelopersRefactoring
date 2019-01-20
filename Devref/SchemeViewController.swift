@@ -11,7 +11,6 @@ import SnapKit
 
 class SchemeViewController: UIViewController, UIScrollViewDelegate, UIGestureRecognizerDelegate {
     
-    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return UIStatusBarStyle.lightContent
     }

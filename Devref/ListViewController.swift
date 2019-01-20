@@ -13,7 +13,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     var cellId = "cellId" // id of cell
     
-    var modelsArray: [Models]? = [Models]()
+    var modelsArray = [Model]()
     
     let tableViewDataInformation: UITableView = {
         var tableView = UITableView()
@@ -42,9 +42,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func numberOfSections(in tableView: UITableView) -> Int {
         
-        for model in modelsArray! {
+        for model in modelsArray {
             if model is Pattern {
-                return modelsArray!.count
+                return modelsArray.count
             } else {
                 return 1
             }
@@ -55,10 +55,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // method, where we change how row must be in each section(remeber: default section in list - 1)
         
-        if let item = modelsArray![section] as? Pattern {
+        if let item = modelsArray[section] as? Pattern {
             return item.patternsSection!.count
         } else {
-            return modelsArray!.count
+            return modelsArray.count
         }
     }
     
@@ -66,18 +66,18 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // configure cell method
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         
-        if let item = modelsArray![indexPath.section] as? Pattern {
+        if let item = modelsArray[indexPath.section] as? Pattern {
             cell.textLabel?.text = item.patternsSection![indexPath.row].title
-        } else if let item = modelsArray![indexPath.row] as? DataStructure {
+        } else if let item = modelsArray[indexPath.row] as? DataStructure {
             cell.textLabel?.text = item.title
-        } else if let item = modelsArray![indexPath.row] as? Algorithm {
+        } else if let item = modelsArray[indexPath.row] as? Algorithm {
             cell.textLabel?.text = item.title
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if let item = modelsArray![section] as? Pattern {
+        if let item = modelsArray[section] as? Pattern {
             return item.title
         }
         return nil
@@ -86,7 +86,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let detailsCollection = DetailsCollectionViewController()
-        if let model = modelsArray![indexPath.section] as? Pattern {
+        if let model = modelsArray[indexPath.section] as? Pattern {
             if let item = model.patternsSection {
                 if item[indexPath.section].section == indexPath.section {
                     if item[indexPath.row].id == indexPath.row {
@@ -95,12 +95,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
                     }
                 }
             }
-        } else if let item = modelsArray![indexPath.row] as? DataStructure {
+        } else if let item = modelsArray[indexPath.row] as? DataStructure {
             if item.id == indexPath.row {
                 detailsCollection.title = item.title
                 detailsCollection.informationArray = item.informationArray
             }
-        } else if let item = modelsArray![indexPath.row] as? Algorithm {
+        } else if let item = modelsArray[indexPath.row] as? Algorithm {
             if item.id == indexPath.row {
                 detailsCollection.title = item.title
                 detailsCollection.informationArray = item.informationArray

@@ -8,30 +8,50 @@
 
 import Foundation
 
-class Models {
-    // this class is parent of classes Pattern, Algorithm, DataStructure
+protocol Model {
+    // this protocol is parent of classes Pattern, Algorithm, DataStructure
+    var title: String? { get set }
+    var id: Int? { get set }
 }
-class TXT: MediaContent {
-    var text: String?
+
+class H1: MediaContent {
+    var content: String
     
-    init(text: String?) {
-        self.text = text
+    init(content: String) {
+        self.content = content
+    }
+}
+
+class H2: MediaContent {
+    var content: String
+    
+    init(content: String) {
+        self.content = content
+    }
+}
+
+class TXT: MediaContent {
+    var content: String
+    
+    init(content: String) {
+        self.content = content
     }
 }
 
 class IMG: MediaContent {
-    var image: String?
+    var content: String
    
-    init(image: String?) {
-        self.image = image
+    init(content: String) {
+        self.content = content
     }
 }
 
-class MediaContent {
-    // this class is parent of IMG and TXT
+@objc protocol MediaContent {
+    // this protocol is parent of IMG and TXT
+    var content: String { get set }
 }
 
-class Algorithm: Models {
+class Algorithm: Model {
     var id: Int?
     var title: String?
     var algorithmsSection: [AlgorithmSection]? = [AlgorithmSection]()
@@ -53,7 +73,7 @@ class AlgorithmSection { // this class need for keep section in ParseDataSource
     }
 }
 
-class DataStructure: Models {
+class DataStructure: Model {
     var id: Int?
     var title: String?
     var dataStructuresSection: [DataStructureSection]? = [DataStructureSection]()
@@ -75,7 +95,7 @@ class DataStructureSection { // this class need for keep section in ParseDataSou
     }
 }
 
-class Pattern: Models {
+class Pattern: Model {
     var id: Int?
     var title: String?
     var patternsSection: [PatternSection]? = [PatternSection]()

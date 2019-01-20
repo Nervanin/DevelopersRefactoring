@@ -21,6 +21,12 @@
                 "section": 0,
                 "info": [
                     {
+                        "header1": "Factory"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -33,6 +39,12 @@
                 "title": "Builder",
                 "section": 0,
                 "info": [
+                    {
+                        "header1": "Builder"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "builder.jpg"
                     },
@@ -47,6 +59,12 @@
                 "section": 0,
                 "info": [
                     {
+                        "header1": "Factory method"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "factoryMethod.jpg"
                     },
                     {
@@ -59,6 +77,12 @@
                 "title": "Lazy initialization",
                 "section": 0,
                 "info": [
+                    {
+                        "header1": "Lazy initialization"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "lazyInitialization.jpg"
                     },
@@ -73,6 +97,12 @@
                 "section": 0,
                 "info": [
                     {
+                        "header1": "Object pool"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "objectPool.jpg"
                     },
                     {
@@ -85,6 +115,12 @@
                 "title": "Prototype",
                 "section": 0,
                 "info": [
+                    {
+                        "header1": "Prototype"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "prototype.jpg"
                     },
@@ -99,6 +135,12 @@
                 "section": 0,
                 "info": [
                     {
+                        "header1": "Singleton"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "singleton.jpg"
                     },
                     {
@@ -111,6 +153,12 @@
                 "title": "Multiton",
                 "section": 0,
                 "info": [
+                    {
+                        "header1": "Multiton"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "multiton.jpg"
                     },
@@ -125,6 +173,12 @@
                 "section": 1,
                 "info": [
                     {
+                        "header1": "Adapter"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "adapter.jpg"
                     },
                     {
@@ -137,6 +191,12 @@
                 "title": "Bridje",
                 "section": 1,
                 "info": [
+                    {
+                        "header1": "Bridje"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "Bridge.jpg"
                     },
@@ -151,6 +211,12 @@
                 "section": 1,
                 "info": [
                     {
+                        "header1": "Composite"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "composite.jpg"
                     },
                     {
@@ -163,6 +229,12 @@
                 "title": "Decarator",
                 "section": 1,
                 "info": [
+                    {
+                        "header1": "Decarator"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "decorator.jpg"
                     },
@@ -177,6 +249,12 @@
                 "section": 1,
                 "info": [
                     {
+                        "header1": "Facade"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "facade.jpg"
                     },
                     {
@@ -189,6 +267,12 @@
                 "title": "Front Controller",
                 "section": 1,
                 "info": [
+                    {
+                        "header1": "Front Controller"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "frontController.jpg"
                     },
@@ -203,6 +287,12 @@
                 "section": 1,
                 "info": [
                     {
+                        "header1": "Flyweight"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "flyWeight.jpg"
                     },
                     {
@@ -215,6 +305,12 @@
                 "title": "Proxy",
                 "section": 1,
                 "info": [
+                    {
+                        "header1": "Proxy"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "proxyPattern.jpg"
                     },
@@ -229,6 +325,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "Chain of responsibilily"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -241,6 +343,12 @@
                 "title": "Cammand",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Cammand"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -255,6 +363,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "Interpreter"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -267,6 +381,12 @@
                 "title": "Iterator",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Iterator"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -281,6 +401,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "Mediator"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -293,6 +419,12 @@
                 "title": "Memento",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Memento"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -307,6 +439,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "Null Object"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -319,6 +457,12 @@
                 "title": "Observer",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Observer"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -334,6 +478,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "State"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -346,6 +496,12 @@
                 "title": "Strategy",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Strategy"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -360,6 +516,12 @@
                 "section": 2,
                 "info": [
                     {
+                        "header1": "Template method"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -372,6 +534,12 @@
                 "title": "Visitor",
                 "section": 2,
                 "info": [
+                    {
+                        "header1": "Visitor"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -390,6 +558,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Bubble Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -402,6 +576,12 @@
                 "title": "Selection Sort",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Selection Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -416,6 +596,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Bucket Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -428,6 +614,12 @@
                 "title": "Insertion Sort",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Insertion Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -442,6 +634,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Merge Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -454,6 +652,12 @@
                 "title": "Quick Sort",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Quick Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -468,6 +672,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Radix Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -481,6 +691,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Counting Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -493,6 +709,12 @@
                 "title": "Heap Sort",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Heap Sort"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -512,6 +734,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "inked Lists"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -524,6 +752,12 @@
                 "title": "Stacks",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Stacks"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -538,6 +772,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Queues"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -550,6 +790,12 @@
                 "title": "Graph",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Graph"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -564,6 +810,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Sets"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -576,6 +828,12 @@
                 "title": "Maps",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Maps"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -590,6 +848,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Hash Tables"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -602,6 +866,12 @@
                 "title": "Binary Search Tree",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Binary Search Tree"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
@@ -616,6 +886,12 @@
                 "section": null,
                 "info": [
                     {
+                        "header1": "Trie"
+                    },
+                    {
+                        "header2": "h2"
+                    },
+                    {
                         "image": "abstractFactory.jpg"
                     },
                     {
@@ -628,6 +904,12 @@
                 "title": "Binary Heap",
                 "section": null,
                 "info": [
+                    {
+                        "header1": "Binary Heap"
+                    },
+                    {
+                        "header2": "h2"
+                    },
                     {
                         "image": "abstractFactory.jpg"
                     },
